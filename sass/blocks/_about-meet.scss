@@ -1,0 +1,144 @@
+.meet-direct {
+  padding: 140px 0 140px 0;
+  background-color: #004047;
+  background-image: url("../../images/mett-bg1.svg");
+  background-repeat: no-repeat;
+}
+
+.meet-direct__title h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.meet-direct__boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  position: relative;
+}
+
+.meet-direct__name::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  width: 96px;
+  height: 96px;
+  background-image: url("../../images/Oval1.png");
+  background-repeat: no-repeat;
+}
+
+.meet-direct__name--2:before {
+  background-image: url("../../images/Oval2.png");
+}
+
+.meet-direct__name--3:before {
+  background-image: url("../../images/Oval3.png");
+}
+
+.meet-direct__name--4:before {
+  background-image: url("../../images/Oval4.png");
+}
+
+.meet-direct__name--5:before {
+  background-image: url("../../images/Oval5.png");
+}
+
+.meet-direct__lists {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 350px;
+  padding: 50px;
+  background-color: #012f34;
+  & li {
+    list-style: none;
+  }
+}
+
+.meet-direct__lists {
+  margin-top: 60px;
+}
+
+.meet-direct__name {
+  padding: 16px 0 4px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.meet-direct__lists p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.meet-direct__job {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.meet-direct__job::after {
+  content: "+";
+  font-size: 35px;
+  color: #012f34;
+  padding-top: 23px;
+  position: absolute;
+  bottom: -25px;
+  margin-left: 90px;
+  width: 60px;
+  height: 60px;
+  line-height: 15px;
+  background-color: #f67e7e;
+  display: block;
+  border-radius: 50%;
+}
+
+.meet-direct__job:hover::after {
+  background-color: #79c8c7;
+  content: "-";
+}
+
+.meet-direct__last {
+  padding: 16px 0 4px 0;
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.meet-direct__lists-last {
+  background-color: #002529;
+}
+
+.meet-direct__social {
+  text-align: center;
+}
+
+.meet-direct__social img:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .meet-direct__boxes {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .meet-direct__boxes {
+    justify-content: center;
+  }
+}
